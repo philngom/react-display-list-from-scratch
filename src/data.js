@@ -6,7 +6,7 @@ export const spies = [
     car: {
       Year: '2018',
       make: 'Chevy',
-      model: 'Impala',
+      model: 'Corvette',
     }
   },
   {
@@ -25,7 +25,7 @@ export const spies = [
     aliases: ['Glen Wakowski', 'Richard White'],
     car: {
       Year: '2015',
-      make: 'Hyndai',
+      make: 'Hyundai',
       model: 'Sonata',
     }
   }

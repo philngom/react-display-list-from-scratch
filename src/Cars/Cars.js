@@ -1,9 +1,10 @@
 import './Cars.css';
 
-export default function Cars() {
+export default function Cars({ car }) {
+  console.log(car);
   return (
-    <div>
-
+    <div className='car-section'>
+      {car.make}
     </div>
   );
 }

@@ -2,17 +2,16 @@
   margin: 0.5em;
   border: 1px solid blue;
   width: 20rem;
-  height: 20rem;
+  height: 19rem;
   grid-template-rows: 20% 1fr 1fr;
 }
 
 .spy-name {
   font-size: 1.5rem;
   font-weight: bold;
-  border: 1px solid red;
 }
 
-.middle-section {
+.middle-section, .bottom-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -20,8 +19,13 @@
   margin: 1em;
 }
 
-img {
+.middle-section img {
   border-radius: 50%;
   width: 5em;
+}
+
+.bottom-section img {
+  width: 8em;
+  border-radius: 1em;
 }
 
