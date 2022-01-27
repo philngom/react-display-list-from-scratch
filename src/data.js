@@ -1,6 +1,7 @@
 export const spies = [
   {
-    name: 'Genine Malbro',
+    first: 'Genine',
+    last: 'Malbro',
     aliases: ['Alma Ayak', 'Brianna Sanchez'],
     car: {
       Year: '2018',
@@ -9,7 +10,8 @@ export const spies = [
     }
   },
   {
-    name: 'Ken Diggens',
+    first: 'Ken',
+    last: 'Diggens',
     aliases: ['Phil Murphy', 'Gary Degrois'],
     car: {
       Year: '2020',
@@ -18,7 +20,8 @@ export const spies = [
     }
   },
   {
-    name: 'Michael Ruby',
+    first: 'Michael',
+    last: 'Ruby',
     aliases: ['Glen Wakowski', 'Richard White'],
     car: {
       Year: '2015',
