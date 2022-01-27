@@ -1,4 +1,5 @@
 import React from 'react';
+import './Aliases.css';
 
 export default function Aliases({ aliases }) {
   return (
